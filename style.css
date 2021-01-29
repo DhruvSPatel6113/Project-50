@@ -1,0 +1,41 @@
+body{
+    border: solid;
+}
+
+.menu{
+    display: flex;
+    border: solid;
+    justify-content: space-between;
+    background-color: rgb(34, 31, 31);
+    color: white;
+}
+
+.menu a{
+    color:white;
+}
+
+.bodyimg{
+    background-image: url("Background3.png");
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Grids{
+    background-image: url("Background3.png");
+    background-size: 100%;
+    justify-content: space-evenly;
+}
+
+.grid , .grid2 , .grid3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.origami{
+    border: solid;
+    border-radius: 20px;
+    justify-content: space-between;
+}
